@@ -80,10 +80,10 @@
         * [图+文，生成视频](collaboration/video-edit.md)
 * [API 用例指南](api/intro.md)
     * [开通 API 使用](api/price.md)
-    * [Wechat-chatgpt](api/wechat-chatgpt.md)
-    * [ebpf生成](api/ebpf.md)
     * [huggingface 介绍](api/huggingface.md)
     * [Langchain 集成工具介绍](api/langchain.md)
+    * [Wechat-chatgpt](api/wechat-chatgpt.md)
+    * [ebpf生成](api/ebpf.md)
     * [docsGPT 示例](api/docsgpt.md)
 * [其他参考](ref.md)
 
