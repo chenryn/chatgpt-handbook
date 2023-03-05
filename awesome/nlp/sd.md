@@ -1,21 +1,34 @@
-= stable-diffusion
+= stable diffusion
 
 == 直接生成
 
-按照惯用的扮演思路，我们可以让 ChatGPT 扮演一个艺术家和 stable-diffusion 爱好者，生成一份绘图 prompt。以冬天奔跑的小女孩为题：
+按照惯用的扮演思路，我们可以让 ChatGPT 扮演一个艺术家，协助我们生成绘图 prompt。考虑到 ChatGPT 和 DallE 同为 openai 公司产品，且 stable-diffusion 开源模型出现较晚，ChatGPT 训练数据中没有 stable-diffusion 相关内容，我们的扮演角色只能是 DallE。
 
+ Pretend you are an advanced A1, optimized for dialogue and for generating helpful Dall-E 2 prompts. Please give me a numbered list of five prompts that I could provide Dall-E 2 that would result in an accurate representation of how you, Assistant, would look if you had a physical body.
 
-然后我们提交到 stable-diffusion 上得到效果如下：
+然后以"冬天奔跑的小女孩"为题，要求生成 prompt：
 
-![]()
+![](/images/awesome/sd-1.png)
 
-稍微有点 stable-diffusion 知识的用户都知道，AI 画图的 prompt 中，除了核心要素，还需要加一些风格描述，而且关键字不一定非得是自然语言顺序，所以我们可以要求 ChatGPT 做一定的简化：
+将 ChatGPT 提供的内容复制粘贴到 stable-diffusion 上得到效果如下：
 
-![]()
+![](/images/awesome/sd-ret.jpeg)
+
+稍微有点 stable-diffusion 知识的用户都知道，AI 画图的 prompt 中，除了核心要素，还需要加一些风格描述，但是直接使用自己心仪的艺术家或者公众人物名字，又有侵权的危险。因此，我们可以让 ChatGPT 帮我们转写艺术家的风格或者公众人物的特征。比如，我们借鉴新垣结衣的长相时，可以让 ChatGPT 帮我们提取她长相的核心元素：
+
+![](/images/awesome/sd-help-2.png)
+
+现在，我们复制这段ChatGPT 回答中的纯描述部分，合并到原始 prompt 里，得到这么一段：
+
+ illustration of a young japanese girl running through a wintery landscape. She has a heart-shaped face with soft, delicate features.  Her eyes are large and almond-shaped, with long eyelashes and a slight upward slant at the outer corners.  Her eyebrows are thin and arched, giving her a slightly quizzical expression.  Her nose is small and straight, and her lips are full and pouty.  She has a clear, porcelain complexion and a gentle smile that lights up her entire face.  Her hair is long and typically styled in loose waves or a simple, elegant updo.  Overall, she has a classic beauty that is both timeless and modern.
+
+因为 stable-diffusion prompt 的关键字不一定非得是自然语言顺序，所以我们可以要求 ChatGPT 做一定的简化"please using short sentences and keywords"：
+
+![](/images/awesome/sd-help-1.png)
 
 得到的效果如下：
 
-![]()
+![](/images/awesome/sd-ret-2.jpeg)
 
 == 思维链生成
 
