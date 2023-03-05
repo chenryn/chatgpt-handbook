@@ -76,7 +76,6 @@
     * [替代 docker 式的在线体验沙箱：SQL 服务器、python 解释器](collaboration/sandbox.md)
     * 多模态应用展望
         * [看图聊天](collaboration/blip2.md)
-        * [看图作文](collaboration/clip-gpt.md)
         * [图+文，生成视频](collaboration/video-edit.md)
 * [API 用例指南](api/intro.md)
     * [开通 API 使用](api/price.md)
