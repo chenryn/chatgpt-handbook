@@ -25,18 +25,18 @@ OpenAI API 是商业服务，使用 API 需要支付费用，不过当我们创�
 
 ![intro](../images/api/price_apikey.png)
 
-我们可以简单试一下API KEY是否好用
+我们可以简单使用postman试一下通过API KEY调用API是否好用。我们在地址栏中输入 https://api.open.com/v1/completions 然后选择POST，在Authorization中选择Bearer Token同时把Token 设置为刚才获取的 API KEY ，设置header中的 Content-Type 为 application/json，发送的body写成如下形式，表示在100个token的限制内，通过api接口获取北京天气状况。
 ```
-curl https://api.openai.com/v1/completions \
-  -H 'Content-Type: application/json' \
-  -H 'Authorization: Bearer 这里换成自己的API KEY' \
-  -d '{
+{
   "model": "text-davinci-003",
   "prompt": "今天北京天气如何？",
-  "max_tokens": 10,
+  "max_tokens": 100,
   "temperature": 0
-}'
-
+}
 ```
+发过去稍等片刻后，返回的数据如下：
 
+![intro](../images/api/price_test.png)
 
+我们发现返回的数据中用了100个以内的token描述了北京今日的天气状况。
+好了，这就是Open API的大概情况，后面会详细给大家介绍一下各个接口的使用方法。
