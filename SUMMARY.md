@@ -41,6 +41,7 @@
         * [代码解释](awesome/code/explain.md)
         * [编程语言转换](awesome/code/language.md)
         * [数据结构转换](awesome/code/structure.md)
+        * [服务器体验沙箱](collaboration/sandbox.md)
         * [HTML 页面文本提取](awesome/code/webcrapper.md)
         * [知识图谱生成](awesome/code/knowledge.md)
         * [leetcode 刷题和变型](awesome/code/leetcode.md)
@@ -73,7 +74,6 @@
     * [和 dalle2 配合生成故事绘本](collaboration/draw.md)
     * [generate 和 summary 配合——解析 bingchat 逻辑](collaboration/bingchat.md)
     * [chatgpt+mj+did生成会说话的头像](collaboration/did.md)
-    * [替代 docker 式的在线体验沙箱：SQL 服务器、python 解释器](collaboration/sandbox.md)
     * 多模态应用展望
         * [看图聊天](collaboration/blip2.md)
         * [图+文，生成视频](collaboration/video-edit.md)
