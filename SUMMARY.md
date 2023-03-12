@@ -5,7 +5,7 @@
     * [ChatGPT 的自我介绍](begin/intro.md)
     * [GPT 训练数据集介绍](begin/dataset.md)
     * [ChatGPT 的极简理解](begin/samplest-explain.md)
-    * [colossal.ai：开源低配版GPT+RLHF+PPO](begin/colossal.md)
+    * [开源社区的进展](begin/opensource.md)
     * [如何识别 ChatGPT 的真假](begin/fake.md)
 * [ChatGPT 页面功能介绍](webpage/intro.md)
     * [注册](webpage/register.md)
