@@ -69,6 +69,7 @@
 * [当前热门应用](product/hunt.md)
     * [notion](product/notion.md)
     * [copilot](product/copilot.md)
+    * [character](product/copilot.md)
     * [AIPRM](product/aiprm.md)
 * [串联应用](collaboration/intro.md)
     * [和 dalle2 配合生成故事绘本](collaboration/draw.md)
