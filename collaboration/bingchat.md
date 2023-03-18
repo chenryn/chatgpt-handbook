@@ -33,7 +33,7 @@ New Bing 目前还处于公测阶段，必须排队申请试用。在浏览器�
 5. 给出回答和引用题注——New Bing 的创新性设计，在上图示例中，我们看到有些句子的末尾，会夹杂着上标 `1` 的引用计数。点击可以直接打开来源网页。
 6. 根据内容生成若干可选问题，以及是否满意的反馈——一个回答完成，会利用 ChatGPT 的文本生成能力，主动提出几个候选问题。同时附加一个满意不满意的选项，辅助人工反馈的收集，继续提升 ChatGPT 算法效果。
 
- 既然第 2 步可以获取网页内容，用户也就可以在问答过程中，直接提供额外的 URL 地址，New Bing 识别到 URL 以后，也同样会获取该 URL 的网页内容，提交到 ChatGPT。指定内容，又比搜索引擎自行搜索，要更精准。比如上例中，列出的产品都不太满意，我们可以直接提供自己已知的产品官网，要求进行对比：
+既然第 2 步可以获取网页内容，用户也就可以在问答过程中，直接提供额外的 URL 地址，New Bing 识别到 URL 以后，也同样会获取该 URL 的网页内容，提交到 ChatGPT。指定内容，又比搜索引擎自行搜索，要更精准。比如上例中，列出的产品都不太满意，我们可以直接提供自己已知的产品官网，要求进行对比：
 
 ![](/images/collaboration/bing-url.png)
 
@@ -62,6 +62,18 @@ New Bing 引用题注的方式，一方面方便了我们快速查看最新和�
 因此，引用题注只是搜索引擎产品层的设计，并不影响 ChatGPT 文本生成算法的实质。请一定牢记这点。
 
 New Bing 在公测过程中已经发挥了一定作用，微软还在逐步将 ChatGPT 技术加入更多的微软产品中，例如 Edge、Skype、Windows 11 操作系统的桌面任务条等等。相信 New Bing 功能的可用范围也会逐步扩大，最终全面可用。
+
+=== new bing 引入不良搜索结果的风险
+
+New Bing 通过即时查询获取搜索结果，并通过预设 prompt 传递给 ChatGPT 的方式，在有些情况下，可能反而误导 ChatGPT 自身的判断。对一些 ChatGPT 根据零散知识可以正常推断的结论，因为搜索引擎没有答案，New Bing 也无法正常回复。
+
+比如我们想了解在 Linux 命令行中 `wc -m` 指令统计中文文本的字符数量，和 Word 软件中字数统计的字符数量有什么差别。问 ChatGPT 时，可以得到非常明确的回答：
+
+![](/images/collaboration/chatgpt-wc.png)
+
+但询问 New Bing 时，因为搜索引擎搜不到结果，反而导致 New Bing 也无法回答了：
+
+![](/images/collaboration/bing-wc.png)
 
 == edge dev
 
@@ -94,15 +106,11 @@ New Bing 功能登录可用后，可以看到该区域有三个不同选择：
 
 考虑到 ChatGPT 的输出字数有限，让他一口气全部解读完不太合适。所以，就按这个步骤来问吧：
 
- Don't search the Internet, summarize this article according to what method, what technology is used, and what effect is achieved in this paper?
-
- Don't search the Internet, what are the advantages of their solution compared with the previous ones, and what problems did they solve that the previous methods could not solve?
-
- Don't search the Internet, please describe the main procedure of the method in detail in combination with the content of the Method section. Please use latex to display the key variables.
-
- Don't search the Internet, combined with the Experiments section, please summarize what task and performance the method achieves? Please list specific values according to this section.
-
- Don't search the Internet, please combine the Conclusion section to summarize what problems still exist in this method?
+1. Don't search the Internet, summarize this article according to what method, what technology is used, and what effect is achieved in this paper?
+2. Don't search the Internet, what are the advantages of their solution compared with the previous ones, and what problems did they solve that the previous methods could not solve?
+3. Don't search the Internet, please describe the main procedure of the method in detail in combination with the content of the Method section. Please use latex to display the key variables.
+4. Don't search the Internet, combined with the Experiments section, please summarize what task and performance the method achieves? Please list specific values according to this section.
+5. Don't search the Internet, please combine the Conclusion section to summarize what problems still exist in this method?
 
 刚好五个问题，不超标。
 
