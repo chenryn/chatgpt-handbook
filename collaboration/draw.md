@@ -10,11 +10,15 @@
 
 第一步，让 chatgpt 生成一个程序员笑话：
 
-第二步，考虑做成一个四格漫画。给出思路：
+> 编一个简短的程序员笑话。要体现中国、美国、日本三个国家和国民性格的特色。笑话的背景是三国程序员修复了网站的死链接问题，然后设计一个长期方案让未来也不再出现这个问题。
 
-第三步，生成第一格漫画的 prompt：
+![](/images/collaboration/joke-1.png)
 
-尝试在免费的 bluewillow 频道上运行，得到如下结果：
+第二步，考虑做成一个四格漫画。继续让 ChatGPT 生成 prompt：
+
+![](/images/collaboration/joke-2.png)
+
+大致思路就是用keyboard、app、paper 来做核心区分。我们稍作调整，尝试在免费的 bluewillow 频道上运行 prompt 生成图片，最终得到如下结果：
 
 ![](/images/collaboration/draw-1.png)
 
