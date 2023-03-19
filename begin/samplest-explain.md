@@ -1,6 +1,6 @@
 = explain
 
-Stephen Wolfram 写了一篇[文章](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)，深入浅出的介绍了 ChatGPT 的原理。不过对于本书的读者，或者说 ChatGPT 的使用者们而言，是否掌握 Transformer、BERT、GPT、zero-shot、InstructGPT的原理，并不影响我们基于 ChatGPT 技术进行实际运用和上层应用开发。
+Stephen Wolfram 写了一篇[文章](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)，深入浅出的介绍了 ChatGPT 的原理。不过对于本书的读者，或者说 ChatGPT 的使用者们而言，是否掌握 Transformer、BERT、GPT、zero-shot、InstructGPT 的原理，并不影响我们基于 ChatGPT 技术进行实际运用和上层应用开发。
 
 我们尝试让 ChatGPT 替我们总结一下文章，尽量以完全没有 IT 知识的水平来讲解。因为 ChatGPT 不能联网，所以借用 bing chat 来实现：
 
