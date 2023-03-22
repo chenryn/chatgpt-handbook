@@ -4,5 +4,15 @@ eBPF 是 Linux 内核在近几年最大的突破性创新技术，在网络数�
 
 [GPTtrace](https://github.com/eunomia-bpf/GPTtrace)项目，就利用了 ChatGPT 的能力，来辅助用户上手 bpftrace 工具的使用。
 
+GPTtrace是一种基于eBPF技术的智能编程工具，旨在为用户提供一种以自然语言输入请求的方式生成eBPF程序的解决方案。其工作原理大致分为以下几步：：
+
+首先，GPTtrace使用各种eBPF开发资源预训练其eBPF程序，以便能够更好地与ChatGPT进行多次对话，让ChatGPT学习如何编写不同类型的eBPF程序和bpftrace DSL。这为用户提供了一个更加智能和高效的eBPF编程环境。
+
+其次，用户以自然语言输入请求，GPTtrace便会调用ChatGPT API生成eBPF程序。生成的程序可以通过shell执行或写入文件进行编译和执行，从而实现用户输入请求的功能。
+
+最后，如果在编译或加载过程中出现错误，GPTtrace会将错误信息发送回ChatGPT，以生成新的eBPF程序或命令，从而提高程序的准确性和鲁棒性。
+
 和其他基于 GPT3 接口的项目不同，该项目完整利用了 ChatGPT 的交互形式，因此， GPTtrace 的训练过程，其实就是 prompt 对话内容，详见 `train/` 目录中的若干文档。因此，即使完全不懂编程的人(这可能是句废话，都用上 `bpftrace` 这种高级调试技巧的人怎么可能不懂编程)，也可以直接从 train 目录里复制出来对话语句，贴进 ChatGPT 界面上，复原整个过程。
+
+
 
