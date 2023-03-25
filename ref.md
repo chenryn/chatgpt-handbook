@@ -6,3 +6,4 @@
 * https://cohere.io/blog/chatgpt-the-silver-bullet-for-your-customer-support-org
 * https://dagster.io/blog/chatgpt-langchain
 * https://pharmapsychotic.com/tools.html
+* https://www.promptingguide.ai/
