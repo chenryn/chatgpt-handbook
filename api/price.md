@@ -39,4 +39,100 @@ OpenAI API 是商业服务，使用 API 需要支付费用，不过当我们创�
 ![intro](../images/api/price_test.png)
 
 我们发现返回的数据中用了100个以内的token描述了北京今日的天气状况。
-好了，这就是Open API的大概情况，后面会详细给大家介绍一下各个接口的使用方法。
+好了，这就是Open API的基本使用方式了。
+
+# 常用API接口和参数说明
+
+### Completions
+
+从名字我们大概就能推断出来这个接口的作用，completions主要解决文字补全问题。具体来说，就是当我们输入一段文字发送给接口后，我们选用的模型会按照文字的提示，给出对应的输出，可以理解为诱导型的对话。
+
+#### 接口地址
+
+```
+POST
+ 
+https://api.openai.com/v1/completions
+
+```
+
+#### 常用参数
+
+completions接口提供了大概16个参数来控制模型处理的方式以及返回的结果。其中常用的有如下几个：
+
+* model：这个参数很重要，是一个必选参数，我们要将接口需要用到的具体模型名称填写在这里。
+* prompt：可以传字符串或者是数组。我们可以理解为给模型的提示词，具体来说就是引导模型进行结果生成，prompt写的越具体，模型给出的结果也就越可能准确。我们还可以在prompt中加入待处理问题的样例，这有助于模型更好地理解问题的上下文和要求，并提高模型的准确性。同时，对于较为复杂的问题，我们可以设计更具引导性的prompt，帮助模型将一个问题分解成多个小问题，并根据问题的关键点和上下文，生成一系列推理链，以逐步深入理解问题的含义和解决方案。
+* max_tokens：生成结果的最大token数，我们的prompt加上max_tokens不能超过模型的token数上线，比如对于 ```text-davinci-003``` 模型，上限是4096个token。
+* temperature：这个参数用来控制生成的文本输出的随机程度。 temperature 值越高，输出的结果越随机，更有创意，而值越低则输出的结果则越趋向于确定性，呈现出的结果也会更加保守也更可预测。
+* top_p：简单来说就是模型在最可能出现的那些token中，选用概率累计超过多少的token作为采样范围。
+
+#### 举个例子
+
+假设我们的参数这样设置：
+```
+{
+  "model": "text-davinci-003",
+  "prompt": "今天北京",
+  "max_tokens": 1000,
+  "temperature": 0.3,
+  "top_p": 0.3
+}
+
+```
+接口的返回如下：
+
+![intro](../images/api/price_params1.png)
+
+如果我们把 temperature 参数调大，把 top_p 也调大，这样模型就可以在更多的预测token中发挥创造力。
+```
+{
+  "model": "text-davinci-003",
+  "prompt": "今天北京",
+  "max_tokens": 1000,
+  "temperature": 0.9,
+  "top_p": 0.9
+}
+```
+![intro](../images/api/price_params2.png)
+
+我们看这回的结果就要活泼很多，同时也联想到了是个户外运动的好天气。
+
+### Chat
+
+Chat接口用来处理聊天任务。与 Completion 接口相比，Chat接口可以实现多轮对话，不过这需要我们自行维护上下文，而且当token的数量超过model可处理的最大值时，我们要对上下文进行总结。
+
+#### 接口地址
+
+```
+POST
+ 
+https://api.openai.com/v1/chat/completions
+
+```
+
+#### 常用参数
+
+Chat接口也属于一种completion，所以很多参数都是复用的，不过Chat接口提供了两个特殊的参数：``` messages ``` 和 ``` user ```
+
+* messages：我们用这个参数描述对话上下文，需要按照 openAI要求的 Chat format 来组织数据格式。messages必须是一个消息对象数组，其中每个对象都有一个role（角色）-- “system”、“user”或“assistant” 以及 content（消息的内容）。对话可以短至 1 条消息或填满整个屏幕。通常来讲，模型首先使用系统消息进行格式化，然后是交替的用户和助理消息。
+  
+  例如：
+
+  ```
+  {
+      "model": "gpt-3.5-turbo",
+      "messages": [
+          {"role": "system","content": "你是一个有用的助手"},
+          {"role": "user", "content": "2018年世界杯冠军时那支队伍？"},
+          {"role": "assistant","content": "2018年世界杯冠军是法国队。"},
+          {"role": "user", "content": "在哪里举办？"}
+      ]
+  }
+  ```
+  接口返回的结果为：
+
+  ![intro](../images/api/price_chat.png)
+
+  我们可以看到，在请求中通过messages字段提供了问题上下文后，接口可以非常准确的给出我们最后的那个非常模糊的 在哪里举办 的问题的正确答案。
+
+* user：最终用户id，我们在请求中发送最终用户ID 可以帮助 OpenAI 监控和检测接口的使用情况，防止滥用接口的现象。如果检测到应用程序中存在任何违反政策的情况，OpenAI可以给我们提供更多可操作的反馈。
