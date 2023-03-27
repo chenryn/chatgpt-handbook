@@ -52,8 +52,7 @@
         * [文本和表格的相互转换](awesome/format/table.md)
         * [markdown 格式与 emoji 表情](awesome/format/emoji.md)
         * [微博话题 # 号](awesome/format/weibo.md)
-        * [申请邮件](awesome/format/email.md)
-        * [婉拒邮件](awesome/format/hr.md)
+        * [撰写邮件](awesome/format/email.md)
     * 多轮问答类
         * 专家咨询顾问
             * [安全漏洞检查](awesome/chat/security.md)
