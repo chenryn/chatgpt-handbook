@@ -7,3 +7,4 @@
 * https://dagster.io/blog/chatgpt-langchain
 * https://pharmapsychotic.com/tools.html
 * https://www.promptingguide.ai/
+* https://arxiv.org/pdf/2212.10560.pdf
