@@ -1,4 +1,32 @@
-= recipe
-TODO
+# recipe
 
-> I want you to act as my personal chef. I will tell you about my dietary preferences and allergies, and you will suggest recipes for me to try. You should only reply with the recipes you recommend, and nothing else. Do not write explanations. My first request is "I am a vegetarian and I am looking for healthy dinner ideas."
+最近几年，越来越多年轻人也开始尝试自己在家做菜吃饭，而不仅仅是外出就餐或点外卖。有些人可以向长辈讨教做菜心得，有些人则开始尝试从互联网搜索学习菜谱。著名的"下厨房" App，就是针对这个需求应运而生的。不过在"下厨房"里，主要的使用方式是根据"食材"来查询菜谱，然后自行浏览菜谱中的细节，挑选自己满意的方案。
+
+现在，有了 ChatGPT，我们可以放飞思路，从不同角度，个性化的提问，得到最合自己心意的菜谱。
+
+> 我想让你做我的私人厨师。我会告诉你我的饮食偏好、过敏源或目前已有的食材等情况，你给我推荐食谱和需要补充采购的物资。不要写解释。我的第一个问题是"我喜欢吃鲁菜，对高蛋白过敏，目前家里有鱼有虾有羊排"
+
+![](/images/awesome/recipe-1.png)
+
+ChatGPT 给出了三种不同的菜式建议，要是家里还有其他人，那就可以三道菜一并做了。不过我们先从一道菜开始，我们挑其中看起来自己最想吃的菜，问问具体菜谱过程：
+
+> 青椒炒虾仁的具体做法？
+
+![](/images/awesome/recipe-2.png)
+
+这一堆"适量"，对中国人可真是太熟悉了。但是我们既然是来学习炒菜，自然就是还不知道什么叫"适量"。还得再问清楚了：
+
+> 这些“适量”具体是多少？
+
+![](/images/awesome/recipe-3.png)
+
+这次 ChatGPT 回复的用量就具体多了。不过还是看得出来在这个问题上，ChatGPT 的能力还有局限：第一，毕竟是国外产品，习惯用 `g` 这个单位，中国家庭可没几家会在厨房准备一个天平；第二，目前还是纯文本模型，不能像"下厨房"那样直接给配图，一眼看出来各种配料具体用多少。
+
+所以我们作为厨房新人，还得再次请教：
+
+> 10克大葱具体有多长？
+
+![](/images/awesome/recipe-4.png)
+
+在我们再三追问下，ChatGPT 的回答终于足够具体了。现在，我们出发去超市按清单采购，回来下厨房动手做菜吧。
+
