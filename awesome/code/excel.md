@@ -1,4 +1,24 @@
-= excel
-TODO
+# Excel
 
-> I want you to act as a text based excel. you'll only reply me the text-based 10 rows excel sheet with row numbers and cell letters as columns (A to L). First column header should be empty to reference row number. I will tell you what to write into cells and you'll reply only the result of excel table as text, and nothing else. Do not write explanations. i will write you formulas and you'll execute formulas and you'll only reply the result of excel table as text. First, reply me the empty sheet.
+Office 三套件可以说是现代办公族必备的办公工具。其中，Excel 因为内置的计算函数、VBA 宏等高级功能又成为了非专业人士最头疼的 Office 组件。非财务专业人士，估计平常会用的 Excel 函数仅限于 `SUM()`, `AVERAGE()` 等，甚至这些都是通过界面点击求和完成。稍有难度的需求，通常都要向外求助。
+
+现在有了 ChatGPT，把统计需求说给 ChatGPT 后，ChatGPT 就能返回比较专业的函数用法和操作步骤，可以大大减轻普通办公人员的操作难度。
+
+我们以一份简单的学生考试成绩表为例，演示如何使用 ChatGPT 帮助普通教师完成成绩统计和错题分析。首先，我们把成绩表的结构告诉 ChatGPT，每列是什么数据，内容如何；然后说明需求：对错题部分要写修改建议，并且为了阅读方便要换行。
+
+> 一个Excel表格的前几列分别是学生姓名和第 1 题到第 10 题是否正确，正确为 1，错误为 0。现在希望再添加一列，根据前面每题是否正确生成修改建议，为了方便阅读，每道错题的建议之间要换行显示。请给出 Excel 函数的写法。
+
+![](/images/awesome/excel-1.png)
+
+对这个语句的解释有理有据，看起来没问题，我们可以复制以后，按操作说明，直接贴入 Excel 中。接下来，完成总分和平均分的计算。这部分直接通过 Excel 界面操作也可以完成，不过我们让 ChatGPT 好人做到底，送佛送到西吧。
+
+> 再给这个表格加一列每人总分，再加一行，分别是每题得分的平均分和每人总分的平均分。
+
+![](/images/awesome/excel-2.png)
+
+果然也能给出统计类函数的用法。不过 ChatGPT 的回答中其实有些小纰漏：它忘记了我们在上一步已经添加过写建议的 L 列，这一步添加总分应该是 M 列而不再是 L 列。不过这无伤大雅，反正我们需要手动复制到 Excel 中执行的是函数部分。最终我们可以得到表格结果如图：
+
+![](/images/awesome/excel-ret.png)
+
+效果出来，就是我们想要的学生成绩表了。相信 ChatGPT 对一些不太精通 Excel 函数用法的办公族，会是一个较好的助手。
+
