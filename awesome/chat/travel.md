@@ -1,6 +1,32 @@
 = travel
-TODO
 
-> I want you to act as a travel guide. I will write you my location and you will suggest a place to visit near my location. In some cases, I will also give you the type of places I will visit. You will also suggest me places of similar type that are close to my first location. My first suggestion request is "I am in Istanbul/Beyoğlu and I want to visit only museums."
+> 我想让你当导游。我告诉你我的位置，你从我附近的地方里推荐一些可以参观的景点。我还可能告诉你我想去的景点类型。我的第一个问题是“我在西安，我只想参观博物馆。”
 
-除此之外，我们还可以尝试更多的想法。比如：将旅游建议，和路线导航结合，甚至加入 ChatGPT 微调角色的个性化导航等等
+![](/images/awesome/travel.png)
+
+看起来不错的样子。那接下来我们就让 ChatGPT 安排好参观计划吧：
+
+> 好的，规划一个旅游日程安排，带上上面这些博物馆。
+
+![](/images/awesome/travel-2.png)
+
+很贴心啊，ChatGPT 还告诉我们一天之内玩 4 个景点可能有些紧张。那我们从善如流，要求 ChatGPT 改成两日游吧：
+
+> 太赶了，按 2 天安排吧，如果时间有多余的也可以加入其他的景点
+
+![](/images/awesome/travel-3.png)
+
+内容较长，我们在中途使用了一次"继续"咒语让 ChatGPT 答完了整个安排。但是没想到：ChatGPT 对第一天的安排其实和上一次一日游的安排一模一样，然后给第二天安排了全新的一批景点，包括华清池、兵马俑、大雁塔、古城墙等等，又是 4 个！
+
+ChatGPT 简直活生生是个狡诈的旅行社推销员啊，热情地"骗"我们在西安多玩一天。哈哈。
+
+不过这里，细心地我们也发现了一个漏洞：ChatGPT 说华清池和兵马俑离西安城区较远是对的，但说大雁塔离兵马俑较近是错的！大雁塔实际上位于陕西历史博物馆和大唐芙蓉园之间。我们尝试提示一下 ChatGPT：
+
+> 考虑一下每个景点的经纬度细节，计算一下实际距离，然后再规划路线？
+
+![](/images/awesome/travel-4.png)
+
+因为 ChatGPT 要一步一步列出所有经纬度，内容较长，这里不截图完全过程，但是从最后一段回复文本中可以看到，ChatGPT 已经得到了兵马俑距离大雁塔其实很远的结果，但依然不改规划——其实，ChatGPT 计算出来的其他这些距离也是错误百出：芙蓉园到华清宫其实长达 38.3 公里远，华清宫到兵马俑只有 9.6 公里。
+
+从这次示例来看，ChatGPT 确实给出了一些热门景点旅游建议，并基本符合我们的需要。但如果涉及到更多深层次的知识，出错的概率就大了很多。要让 ChatGPT 更好的扮演导游的角色，还需要引入其他系统的辅助，比如地图应用的路径规划计算等等。甚至未来还可以尝试更多的想法。比如：将旅游建议，和路线导航结合，甚至加入 ChatGPT 微调角色的个性化导航等等。
+
