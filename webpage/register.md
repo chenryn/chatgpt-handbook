@@ -68,3 +68,4 @@
 12. 如果验证成功，那么恭喜，我们已经拥有了一个属于自己的OpenAI账号，页面也会定向到ChatGPT的对话主页面，我们可以开始开启体验ChatGPT的强大功能了！
     
     ![intro](../images/webpage/reg_success.png)
+

@@ -1,4 +1,4 @@
-= AIPRM
+# AIPRM
 
 AIPRM for ChatGPT 是一个 Chrome 浏览器扩展程序，基于 Chromium 内核开发的浏览器，都可以使用该扩展，比如微软的 Edge 浏览器等。
 

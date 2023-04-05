@@ -30,7 +30,7 @@ ChatGPT对于 HTML 的理解不仅仅在于文本的抽取，它可以识别整�
     <Action>click(223)</Action>
     你必须始终包含<Thought>和<Action>打开/关闭标签，否则你的响应将被标记为无效。
 
-ChatGPT收到这个prompt后，就会对这个提示进行上下文设定并将自己对于该提示的理解输出。我们可以看看ChatGPT的理解多不对，如下图所示：
+ChatGPT收到这个prompt后，就会对这个提示进行上下文设定并将自己对于该提示的理解输出。我们可以看看ChatGPT的理解对不对，如下图所示：
 
 ![](../../images/code/../awesome/code-web-prompt.png)
 

@@ -1,4 +1,4 @@
-= emotion
+# emotion
 
 我们从开源社区找到了中科院谭松波博士整理的携程网酒店评论数据集(https://raw.githubusercontent.com/SophonPlus/ChineseNlpCorpus/master/datasets/ChnSentiCorp_htl_all/ChnSentiCorp_htl_all.csv)。一共七千余条数据，包括 label 和 review 两个字段。review 是评论文本，label 是情感分类标记，为 1 表示正向，0 表示负向。
 

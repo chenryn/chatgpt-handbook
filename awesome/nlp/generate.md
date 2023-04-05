@@ -18,7 +18,7 @@
 > 
 > 你的存在，如同
 
-![](/images/awesome/generate.png)
+![](/images/awesome/generate-2.png)
 
 ChatGPT 根据前面标题里的"诗歌"，默认还推导获知了你应该是要四句一批分段落，可以说非常智能了。不知道 ChatGPT 这道 10 分题，能得几分呢？
 

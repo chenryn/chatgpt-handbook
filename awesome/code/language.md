@@ -102,3 +102,4 @@ ChatGPT的回复如下：
 ![](../../images/code/../awesome/code-language-wcloud-jsresult1.png)
 
 但是通过对比两个词云的图片，我们发现两个词云的样子有一些差别，这是由于 python 的 wordcloud 和 node 的 wordcloud 两个库的实现方式不同导致的，通过询问ChatGPT，但是它并没有给出正确的参数设置，因此我们手动对参数进行一些调整才能得到期望的样式。
+

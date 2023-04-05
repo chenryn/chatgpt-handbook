@@ -20,3 +20,6 @@ ChatGPT 公开服务以来，程序员们无疑是最早深入体验和"测试"�
 ![](../../images/code/../awesome/code-language-stackexplain2.png)
 
 修改后的代码经过测试是可以运行的，也得到了我们想要的结果，如果我们利用好这个工具，可以在解决代码问题的时候节省大量的时间，提高工作效率。
+
+在基础设施层排障场景，目前有越来越多的小工具在基于 ChatGPT 构建，比如实现 bpftrace 编写的 GPTtrace、实现kubenertes 状态解读的 k8sgpt 等等。
+

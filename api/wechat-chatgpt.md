@@ -41,3 +41,4 @@ docker logs -f wechat-chatgpt
 ![intro](../images/api/wechat_chat.png)
 
 是不是很有趣，这样我们就能在微信中使用 ChatGPT 的神奇功能啦！
+

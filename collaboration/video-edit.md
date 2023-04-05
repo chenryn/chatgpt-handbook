@@ -1,4 +1,4 @@
-= video-edit
+# video-edit
 
 当通过 ChatGPT 生成连贯的 prompt 时，除了连环画，我们理所当然还可能畅想更激进的场景——生成动画视频。目前 AIGC 社区确实在生成视频方面有一定的尝试。比如 Deforum 可以通过多条 prompt，配合具体的切换时间点，镜头切换角度设置，生成一些简单的动画视频：<https://replicate.com/deforum-art/deforum-stable-diffusion>。但由于目前文生图 AI 的细节控制还不够稳定，直接从 prompt 生成视频的效果，距离人们的期望还很远。
 

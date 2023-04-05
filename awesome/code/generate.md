@@ -34,3 +34,4 @@ python weather.py
 ![](../../images/code/../awesome/code-generate3.png)
 
 可以看到，我们刚才创建的服务正确的返回了北京的天气情况。这个API服务，我们只需要花费几分钟的时间就构建完成了，而且基本不需要写任何代码，这就是ChatGPT的强大之处。
+

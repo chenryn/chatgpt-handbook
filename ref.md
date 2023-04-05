@@ -1,4 +1,4 @@
-= 参考文献
+# 参考文献
 
 * https://www.researchgate.net/publication/367464129_Chatbot_Prompting_A_guide_for_students_educators_and_an_AI-augmented_workforce
 * https://fka.gumroad.com/l/art-of-chatgpt-prompting

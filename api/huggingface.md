@@ -67,6 +67,7 @@ generator( "The book is awsome and", max_length=30, num_return_sequences=2)
 [{'generated_text': 'The book is awsome and beautiful, I love it. I love how this story follows everyone from the protagonist of this book with her family to his'}, {'generated_text': "The book is awsome and fascinating. I'm sure you're already familiar with the way things turn out after reading one of its pages of novels."}]
 ```
 
-这只是 Hugging Face 的简单用法，他还有很多很厉害的功能，我们可以通过网站的 Spaces 菜单进入 Space 页面进行体验，也可以按照官方文档进行跟深入的研究。
+这只是 Hugging Face 的简单用法，他还有很多很厉害的功能，我们可以通过网站的 Spaces 菜单进入 Space 页面进行体验，也可以按照官方文档进行更深入的研究。
 
 除此之外，国内也开始建设类似的 MaaS 网站，比如：<https://modelscope.cn/>。
+

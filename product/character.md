@@ -1,4 +1,4 @@
-= character
+# character
 
 Character.AI 公司是一家致力于通用人工智能（AGI）的全栈公司，于2021年10月创立，创始团队来自Google Brain和Meta AI，是深度学习、大型语言模型和对话领域的专家。Character.AI搭建了用户创建AI角色并与之聊天的平台及社区，AI角色有官方创建、社区成员UGC两大类，官方创建的AI 角色包括：马斯克、拜登、洛基等等。不过平台以满足个人需求的个性化定制AI为主，比如AI女友/男友。Character.AI 公司没有公布自己背后的 AI 技术来源，不过从 AI 角色的高级配置过程和效果来看，属于典型的 In-Context Learning 技术，应该和 GPT-3 属于同一代产品。我们可以从 character.ai 的使用过程和效果中，体会到 In-Context Learning 的强大，在后续使用、开发 ChatGPT 相关应用时，可以复用这方面的经验。
 

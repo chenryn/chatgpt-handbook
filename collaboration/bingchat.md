@@ -1,6 +1,6 @@
-= bingchat
+# bingchat
 
-== new bing
+## new bing
 
 微软作为 openai 公司背后的大股东，多年投入一朝开花结果，当然要把 ChatGPT 技术融入到自己的核心产品中，提升整体生产力。微软的第一个措施，就是在必应搜索引擎 bing.com 中，嵌入 ChatGPT。
 
@@ -22,7 +22,7 @@ New Bing 目前还处于公测阶段，必须排队申请试用。在浏览器�
 
 ![](/images/collaboration/bing-fullscreen.png)
 
-=== new bing 原理解读
+### new bing 原理解读
 
 从 new bing 的 chat 页面上，我们可以看到必应团队如何把不同技术融合在一起，设计成新一代搜索产品。整个流程总结如下：
 
@@ -43,7 +43,7 @@ New Bing 目前还处于公测阶段，必须排队申请试用。在浏览器�
 
 注意：New Bing 控制一次会话最多只能进行 8 次提问，甚至在第 5 次时，前面的小绿点就开始变黄做警示。你可以点击 message 框左侧的扫帚图标，重新开始会话问答。
 
-=== new bing 语气偏好设置
+### new bing 语气偏好设置
 
 刚开始一个新的会话问答时，New Bing 会提示你设置本地会话的语气偏好，可以从平衡改为更有创意的，或是更严谨的。
 
@@ -55,7 +55,7 @@ New Bing 目前还处于公测阶段，必须排队申请试用。在浏览器�
 
 ![](/images/collaboration/bing-precise.png)
 
-=== new bing 引用题注的风险
+### new bing 引用题注的风险
 
 New Bing 引用题注的方式，一方面方便了我们快速查看最新和最直接的来源材料原始内容，一方面也让我们更加确信 ChatGPT 生成回答的准确性。但请注意：后者可能是一种错误信号！
 
@@ -67,7 +67,7 @@ New Bing 引用题注的方式，一方面方便了我们快速查看最新和�
 
 New Bing 在公测过程中已经发挥了一定作用，微软还在逐步将 ChatGPT 技术加入更多的微软产品中，例如 Edge、Skype、Windows 11 操作系统的桌面任务条等等。相信 New Bing 功能的可用范围也会逐步扩大，最终全面可用。
 
-=== new bing 引入不良搜索结果的风险
+### new bing 引入不良搜索结果的风险
 
 New Bing 通过即时查询获取搜索结果，并通过预设 prompt 传递给 ChatGPT 的方式，在有些情况下，可能反而误导 ChatGPT 自身的判断。对一些 ChatGPT 根据零散知识可以正常推断的结论，因为搜索引擎没有答案，New Bing 也无法正常回复。
 
@@ -79,7 +79,7 @@ New Bing 通过即时查询获取搜索结果，并通过预设 prompt 传递给
 
 ![](/images/collaboration/bing-wc.png)
 
-== edge dev
+## edge dev
 
 微软除了在 bing.com 搜索网站上引入 ChatGPT 以外，在自家另一款明星产品，Edge 浏览器中，也尝试引入 ChatGPT。目前仅限 Edge Dev 开发测试版本可用。
 
