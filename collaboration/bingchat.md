@@ -1,4 +1,4 @@
-# bingchat
+# generate 和 summary 配合——解析 bingchat 逻辑
 
 ## new bing
 

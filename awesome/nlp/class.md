@@ -1,4 +1,4 @@
-# class
+# 语义分析词格分类
 
 命名实体识别(NER, named entity recognization)和词性归类是 NLP 技术中的关键一环。过去  NLP 领域有不少流行的开源项目专注在这个领域，如 Spacy、NLTK 等等。我们来试试 ChatGPT 在这方面的表现情况如何。我们从"四渡赤水"的百度百科词条中，复制一段文本来测试 ChatGPT 的表现：
 

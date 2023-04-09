@@ -35,7 +35,7 @@
         * [数据集模拟生成](awesome/nlp/generate-data.md)
         * [密码生成](awesome/nlp/generate-passwd.md)
         * [语言翻译](awesome/nlp/translate.md)
-    * 编程类(awesome/code/intro.md)
+    * [编程类](awesome/code/intro.md)
         * [代码生成](awesome/code/generate.md)
         * [代码解释](awesome/code/explain.md)
         * [编程语言转换](awesome/code/language.md)
@@ -81,7 +81,6 @@
     * [huggingface 介绍](api/huggingface.md)
     * [Langchain 集成工具介绍](api/langchain.md)
     * [Wechat-chatgpt](api/wechat-chatgpt.md)
-    * [ebpf生成](api/ebpf.md)
     * [docsGPT 示例](api/docsgpt.md)
 * [其他参考](ref.md)
 

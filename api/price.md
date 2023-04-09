@@ -1,4 +1,4 @@
-# API 开通使用
+# 开通 API 使用
 
 ## OpenAI API 费用
 

@@ -4,11 +4,11 @@
 
 例如我们提供一段层数比较多的相对来说较为复杂的 HTML 代码，如下图所示：
 
-![](../../images/code/../awesome/code-web-dom.png)
+![](/images/awesome/code-web-dom.png)
 
 图中我们用红框标出的部分是需要抽取的文本，我们可以要求 ChatGPT 帮我们抽取出其中的文本，看看是否如我们期望的，只将红框中的部分抽取出来。如下图所示：
 
-![](../../images/code/../awesome/code-web-text.png)
+![](/images/awesome/code-web-text.png)
 
 我们看到，ChatGPT成功地将红框中的文本抽取出来了，而且没有将 HTML 片段中
 ```html
@@ -32,7 +32,7 @@ ChatGPT对于 HTML 的理解不仅仅在于文本的抽取，它可以识别整�
 
 ChatGPT收到这个prompt后，就会对这个提示进行上下文设定并将自己对于该提示的理解输出。我们可以看看ChatGPT的理解对不对，如下图所示：
 
-![](../../images/code/../awesome/code-web-prompt.png)
+![](/images/awesome/code-web-prompt.png)
 
 可以看到，ChatGPT成功的理解了我们为他设定的prompt，接下来我们就要测试一下他能不能正确执行我们的指令了。我们在输入框中输入如下内容：
 
@@ -48,7 +48,7 @@ ChatGPT收到这个prompt后，就会对这个提示进行上下文设定并将�
 
 接下来看看ChatGPT如何应对这个任务，如下图所示：
 
-![](../../images/code/../awesome/code-web-action.png)
+![](/images/awesome/code-web-action.png)
 
 我们看到，ChatGPT正确的识别出了HTML文本中
 

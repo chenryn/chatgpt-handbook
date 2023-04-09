@@ -43,15 +43,15 @@ if __name__ == '__main__':
 
 运行结果如图所示：
 
-![](../../images/code/../awesome/code-language-wcloud1.png)
+![](/images/awesome/code-language-wcloud1.png)
 
 现在因为业务需要，我们需要将这段代码转移到客户端，因此我们需要将这段代码转换成JavaScript代码，这样就可以在客户端运行了。我们看看ChatGPT如何来完成这项工作，我们将代码片段输入到ChatGPT对话框中，要求ChatGPT帮我们转换成Javascript的实现方式，如下图所示：
 
-![](../../images/code/../awesome/code-language-wcloud-cvt1.png)
+![](/images/awesome/code-language-wcloud-cvt1.png)
 
 ChatGPT的回复如下：
 
-![](../../images/code/../awesome/code-language-wcloud-cvt2.png)
+![](/images/awesome/code-language-wcloud-cvt2.png)
 
 我们看到，ChatGPT不仅仅将代码转换过来，并且对于使用的第三方库，也找到了Javascript中可用的相对应的依赖库，而且调用第三方库的一些参数，也保留下来并在Javascript中正确设置了对应的参数，我们将ChatGPT的回复复制到本地，保存为js文件，然后使用`npm`安装好ChatGPT提示的需要安装的node的依赖库。
 
@@ -82,7 +82,7 @@ ChatGPT的回复如下：
 
 最后我们运行这段代码，结果居然报错了：
 
-![](../../images/code/../awesome/code-language-wcloud-jserror.png)
+![](/images/awesome/code-language-wcloud-jserror.png)
 
 经过分析，发现是因为传给wordcloud的数据格式不正确，于是我们要求ChatGPT按照包含关键词和权重的二元组数组的格式重新组织数据，生成的代码中数据处理部分如下：
 
@@ -99,7 +99,7 @@ ChatGPT的回复如下：
 
 接下来我们运行代码，词云图片成功生成了：
 
-![](../../images/code/../awesome/code-language-wcloud-jsresult1.png)
+![](/images/awesome/code-language-wcloud-jsresult1.png)
 
 但是通过对比两个词云的图片，我们发现两个词云的样子有一些差别，这是由于 python 的 wordcloud 和 node 的 wordcloud 两个库的实现方式不同导致的，通过询问ChatGPT，但是它并没有给出正确的参数设置，因此我们手动对参数进行一些调整才能得到期望的样式。
 

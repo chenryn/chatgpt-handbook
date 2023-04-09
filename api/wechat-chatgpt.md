@@ -1,4 +1,4 @@
-# wechat-chatgpt
+# Wechat-chatgpt
 
 微信可以说是人们最常用的聊天应用了，而随着ChatGPT越来越多的出现在人们的视野中，当我们感受过ChatGPT令人惊艳的智能对话体验以后，自然而然就希望能够在微信中快速接入ChatGPT，方便我们使用最长用的聊天工具和ChatGPT进行对话，而 wechat-chatgpt <https://github.com/fuergaosi233/wechat-chatgpt.git> 这个开源库，就能帮助我们实现这个愿望。
 

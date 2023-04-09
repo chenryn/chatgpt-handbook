@@ -1,4 +1,4 @@
-# prd
+# PRD 生成
 
 ChatGPT 即了解具体的编程知识，也了解编程之前的需求设计过程。因此产品经理也可以使用 ChatGPT 来快速编写PRD(产品需求文档, production requirement documentation)。
 

@@ -1,4 +1,4 @@
-# stable diffusion
+# stable-diffusion Prompt 生成
 
 ## 直接生成
 

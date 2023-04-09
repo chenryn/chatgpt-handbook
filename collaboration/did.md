@@ -1,4 +1,4 @@
-# did
+# chatgpt+mj+did生成会说话的头像
 
 当我们有了 ChatGPT 生成的内容，有了  stable-diffusion、midjourney 或者 dalle2 生成的人像，如果还能让人像动起来，替我们朗诵或者播报一下 ChatGPT 的内容，不就是一个数字人了么？
 

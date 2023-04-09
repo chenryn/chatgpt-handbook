@@ -1,4 +1,4 @@
-# explain
+# ChatGPT 的极简理解
 
 Stephen Wolfram 写了一篇[文章](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)，深入浅出的介绍了 ChatGPT 的原理。不过对于本书的读者，或者说 ChatGPT 的使用者们而言，是否掌握 Transformer、BERT、GPT、zero-shot、InstructGPT 的原理，并不影响我们基于 ChatGPT 技术进行实际运用和上层应用开发。
 
