@@ -29,4 +29,5 @@ ChatGPT 是 2022 年开启的 AIGC 时代的代表性产品，出圈以来，越
 * [ ] ChatGPT Plugin 介绍与开发
 * [ ] GPT-3 的微调示例
 * [ ] 其他 LLM 介绍与对比
+* [ ] LangChain Agent 或 Auto GPT 之类连续任务场景介绍
 
