@@ -2,7 +2,7 @@
 
 当我们开始使用ChatGPT了以后，就会发现一个非常有意思的事情，我们发起的每一个对话，ChatGPT都会基于对话内容生成一个摘要展现在对话列表中，如图所示：
 
-![intro](../images/webpage/rename_list.png)
+![intro](/images/webpage/rename_list.png)
 
 我们的问题是“世界上最大的桥梁是哪座大桥？”，ChatGPT生成的摘要为“世界上最大的桥梁”，而对于我们的问题“给女朋友过生日，可以准备哪些小惊喜？”，它生成的摘要为“女朋友生日小惊喜”等等，可见ChatGPT生成的摘要还是比较准确的。
 
@@ -14,6 +14,6 @@
 
 当然了，如果我们对于ChatGPT生成的摘要不满意，或者有自己想要描述的内容，可以在选中这个对话的时候，点击摘要名称旁边的铅笔图标编辑摘要，修改成我们想要的内容。
 
-![intro](../images/webpage/rename_edit.png)
+![intro](/images/webpage/rename_edit.png)
 
 

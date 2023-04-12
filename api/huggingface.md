@@ -44,13 +44,13 @@ classifier("This book is awesome.")
 
 首先我们打开 Hugging Face 官网，点击导航栏中的 Models 进入模型页面：
 
-![intro](../images/api/huggingface_main.png)
+![intro](/images/api/huggingface_main.png)
 
 页面主要分为三个部分，左侧是过滤项列表，分不同的维度列出了许多过滤项，点击即可进行过滤；右侧顶部是搜索框，可以根据名字搜索模型；下方是模型列表，不带前缀的是官方模型，例如 gpt2，带前缀的是第三方提供的模型，例如 microsoft/layoutlmv3-base。
 
 我们通过过滤或者搜索找到我们所需模型后，点击进入模型详情页面，如下图：
 
-![intro](../images/api/huggingface_detail.png)
+![intro](/images/api/huggingface_detail.png)
 
 页面最上方是模型名字，往下一点便是模型的标签，主体部分，靠左的是模型的详细说明，右侧是一些关联信息，如果模型的API托管在 Hugging Face上，就会出现框柱的部分，我们可以在这里进行模型效果的体验。假设我们想试试 distilgpt2 模型生成文本的效果如何，我们可以使用如下代码：
 

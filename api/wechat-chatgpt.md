@@ -9,7 +9,7 @@ wechat-chatgpt帮助我们基于wechaty和Official API技术在微信中使用Ch
 ```
 docker pull holegots/wechat-chatgpt
 ```
-![intro](../images/api/wechat_pull.png)
+![intro](/images/api/wechat_pull.png)
 
 接下来我们使用下面的命令运行 Docker，这里要注意，需要提供自己的 OpenAI API Key。
 
@@ -30,15 +30,15 @@ docker logs -f wechat-chatgpt
 ```
 与行命令以后，终端界面中会出现一个二维码，我们使用一个微信扫码登陆，注意在登陆时手机会提示在新设备登陆，我们确定明确风险后，wechat-chatgpt就会处于登陆状态了。可以看到终端中最新的输出提示了我们的登陆状态。
 
-![intro](../images/api/wechat_qr.png)
+![intro](/images/api/wechat_qr.png)
 
 到此，我们已经使用 wechat-chatgpt 建立起了一个微信和 ChatGPT 的沟通通道，如果我们使用另一个微信号和这个用于登陆的微信号聊天，我们发送的信息会被刚才启动的服务接收到，然后转发给ChatGPT，等ChatGPT回答以后，这个服务再把回答作为回复发送回刚才的聊天。例如我们发送：请介绍一些自己，就会有如下对话。
 
-![intro](../images/api/wechat_co.png)
+![intro](/images/api/wechat_co.png)
 
 而在刚才的服务端，我们也能看到同样的对话内容，并且能清晰的看到问题发送给了 ChatGPT 。
 
-![intro](../images/api/wechat_chat.png)
+![intro](/images/api/wechat_chat.png)
 
 是不是很有趣，这样我们就能在微信中使用 ChatGPT 的神奇功能啦！
 

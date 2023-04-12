@@ -2,7 +2,7 @@
 
 如果我们细心观察，就会发现ChatGPT的每一条回答后面都有两个图表，一个大拇指向上，一个大拇指向下，他们是干什么用的呢？
 
-![intro](../images/webpage/likeandunlike.png)
+![intro](/images/webpage/likeandunlike.png)
 
 这其实是ChatGPT的一种反馈机制--赞和踩，它们的作用是帮助改进ChatGPT的回答质量和推荐更符合用户需求的答案。具体来说，当用户点击赞或踩按钮时，ChatGPT会收集反馈信息并将其用于改善其回答。
 

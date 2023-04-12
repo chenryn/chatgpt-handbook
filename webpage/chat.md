@@ -13,17 +13,17 @@
 
 对于ChatGPT来说，突出的就是一个```chat```--聊天，聊天就是有问有答，是双方的对话。当我们围绕着一个话题进行讨论或者交流的时候，ChatGPT会记住前面已经发生过的对话内容，并会结合之前的内容生成新的问题的答案，在我们看来这就好像在和ChatGPT聊天一样。
 
-![intro](../images/webpage/chat_continu.png)
+![intro](/images/webpage/chat_continu.png)
 
 ## 重新生成
 
 当我们对于某个答案不满意，可以点击对话输入框上方的 Regenerate response 按钮，这个时候ChatGPT会为最后一个问题生成一版新的回答。注意，这里我用了“一版”来描述这个新的回答，这是因为之前的回答也作为一个版本保留了下来，我们可以点击答案左侧的 ```当前版本/总版本数``` 的前后箭头来切换答案的版本。例如，对于女朋友生日小惊喜这个问题，我们希望ChatGPT再给出一个版本的答案，于是我们点击了 Regenerate response 按钮，大家一起看看哪个版本更有趣呢？
 
 新版本
-![intro](../images/webpage/chat_regen2.png)
+![intro](/images/webpage/chat_regen2.png)
 
 第一个版本
-![intro](../images/webpage/chat_regen1.png)
+![intro](/images/webpage/chat_regen1.png)
 
 为什么ChatGPT能给出不同版本的回答呢？因为ChatGPT是一个基于神经网络的语言模型，其生成的回答是基于其在训练数据中学习到的语言规则、语义知识和上下文信息等因素。因此，对于同一个问题，ChatGPT可以根据不同的上下文和语境生成不同的回答。
 

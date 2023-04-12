@@ -6,13 +6,13 @@
 
 同样的，如果我们的问题过于复杂，ChatGPT可能对于问题也没办法做到全部解析，比如我们希望ChatGPT帮我们总结一篇文章的内容的时候，如果文章过于长，超过大概900个左右的中文字，ChatGPT就很可能丢掉超出的部分，只基于前面字数限制内的部分进行处理。例如我们给出了一大段文字，最后问了一个和前面内容不相关的问题，当字数超过930个字以后，ChatGPT就识别不出来我们最后的问题了。
 
-![intro](../images/webpage/limit_q.png)
+![intro](/images/webpage/limit_q.png)
 
 ## 如果解决字数限制
 
 对于答案过长的时候，我们可以和ChatGPT说`继续`，那么，他就会继续刚才的一半的回答继续将剩下的文字输出。例如，我们想让ChatGPT帮我们写一篇文章，因为文章过长，所以中间会被截断，当我们输入继续以后，ChatGPT继续输出答案直到完成。
 
-![intro](../images/webpage/limit_continue.png)
+![intro](/images/webpage/limit_continue.png)
 
 如果是问题过长的时候就没有什么更好的办法了，我们需要对问题进行分解，将大段的问题描述分解成一步一步的小问题，以便ChatGPT更好的理解问题并做出回答。
 
