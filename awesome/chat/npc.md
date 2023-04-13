@@ -49,3 +49,5 @@
 
 我们甚至可以展望，等到 AIGC 绘图模型的连续出图能力相对稳定以后，在这段 JSON 里再加上 background_prompt 信息，我们将获得的，不仅仅是一个 ChatGPT 驱动的 NPC，而是整个 ChatGPT 驱动的 2D 游戏。
 
+斯坦福大学在 2023 年 4 月发表了一篇论文《Generative Agents: Interactive Simulacra of Human Behavior》。研究者设计了一个虚拟小镇的 MUD 游戏，镇子上生活着 25 个居民，各有人设。然后 25 个 ChatGPT 代理分别扮演这 25 个居民的日常生活。可以说，我们本节设想的 AI 游戏，已经越来越近了。
+
