@@ -49,5 +49,9 @@
 
 我们甚至可以展望，等到 AIGC 绘图模型的连续出图能力相对稳定以后，在这段 JSON 里再加上 background_prompt 信息，我们将获得的，不仅仅是一个 ChatGPT 驱动的 NPC，而是整个 ChatGPT 驱动的 2D 游戏。
 
-斯坦福大学在 2023 年 4 月发表了一篇论文《Generative Agents: Interactive Simulacra of Human Behavior》。研究者设计了一个虚拟小镇的 MUD 游戏，镇子上生活着 25 个居民，各有人设。然后 25 个 ChatGPT 代理分别扮演这 25 个居民的日常生活。可以说，我们本节设想的 AI 游戏，已经越来越近了。
+学界和业界也都在向这方面努力。超参数科技在 2023 年 3 月发布了《长安城 30 天观察日记》，综合 LLM 和高低层策略、长短期记忆，打造 GAEA 系统，影响 NPC 的行动和对话。可以说是一个很有意思的尝试，其系统架构图如下：
+
+![](https://guanwang-1251735782.cos.ap-guangzhou.myqcloud.com/tinymce/images/4b58ed95fefc71ca92feebe89b46ead06417feeb0b139.png)
+
+斯坦福大学在 2023 年 4 月也发表了一篇论文《Generative Agents: Interactive Simulacra of Human Behavior》。研究者设计了一个虚拟小镇的 MUD 游戏，镇子上生活着 25 个居民，各有人设。然后 25 个 ChatGPT 代理分别扮演这 25 个居民的日常生活。可以说，我们本节设想的 AI 游戏，已经越来越近了。
 
